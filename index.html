@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing Plans</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <section class="pricing-header">
+    <h1>Our Plans</h1>
+    <p>Choose the right plan for your growth</p>
+    <div class="toggle-container">
+      <label class="toggle-label">Monthly</label>
+      <label class="switch">
+        <input type="checkbox" id="toggle" />
+        <span class="slider round"></span>
+      </label>
+      <label class="toggle-label">Yearly</label>
+    </div>
+  </section>
+
+  <section class="pricing-cards">
+    <div class="card">
+      <h2>Starter</h2>
+      <p class="price" data-monthly="$0" data-yearly="$0">$0/month</p>
+      <ul>
+        <li>Basic support</li>
+        <li>Access to core features</li>
+        <li>Community access</li>
+        <li>Single user</li>
+      </ul>
+      <button class="choose-btn">Choose Plan</button>
+    </div>
+
+    <div class="card most-popular">
+      <div class="badge">Most Popular</div>
+      <h2>Professional</h2>
+      <p class="price" data-monthly="$49" data-yearly="$499">$49/month</p>
+      <ul>
+        <li>Priority support</li>
+        <li>Advanced tools</li>
+        <li>Team collaboration</li>
+        <li>Unlimited projects</li>
+      </ul>
+      <button class="choose-btn">Choose Plan</button>
+    </div>
+
+    <div class="card">
+      <h2>Premium</h2>
+      <p class="price" data-monthly="$99" data-yearly="$999">$99/month</p>
+      <ul>
+        <li>24/7 support</li>
+        <li>All Professional features</li>
+        <li>Custom integrations</li>
+        <li>Unlimited users</li>
+      </ul>
+      <button class="choose-btn">Choose Plan</button>
+    </div>
+  </section>
+</body>
+</html>
